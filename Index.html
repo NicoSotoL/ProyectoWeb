@@ -1,33 +1,120 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        .para1 {
-            text-align: center;
-        }
-        .para2 {
-            align-items: center;
-        }
-    </style>
-    <head>
-        <title>Ayuda a un PELUDO</title>
-    </head>
-    <body>
-        <div>
-            <header>
-            <h1 class="para1">ONG AYUDA A UN PELUDO</h1>
-            </header>
-        </div>
-        <div>
-            <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dicta maiores! Labore exercitationem in quidem illo facere unde quisquam minima eos delectus impedit. Eveniet aperiam eligendi placeat nisi sit expedita ea, reiciendis corporis aliquam atque error, itaque dolore odit dignissimos vitae cum et, veniam hic amet ullam libero? Earum ut eum suscipit perspiciatis laboriosam quidem reiciendis autem aut praesentium repellat officia modi ratione in accusantium fugit esse, aspernatur architecto qui dolores? Et cum commodi corporis iure quas. Repellat, enim fuga debitis voluptatibus dolores ipsa est aut porro, quidem tenetur praesentium culpa eligendi aliquid, magnam voluptatem autem qui architecto nostrum aspernatur?</p>
-        </div>
-        <div>
-            <h3 class="para1">Nuestros integrantes:</h3>
-            <ul class="para2">
-                <li>Persona 1 - Cargo 1</li>
-                <li>Persona 2 - Cargo 2</li>
-                <li>Persona 3 - Cargo 3</li>
-                <li>Persona n - Cargo n</li>
+<style>
+    .ni {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        
+    }
+
+    nav {
+        float: left;
+    }
+
+    nav ul {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 200px;
+      margin: 0;
+      padding: 0;
+      background-color: rgba(0, 0, 0, 0.7) ;
+    }
+
+    nav ul li {
+    float: bottom;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav ul li:hover {
+        background: #f59b9b;
+    }
+    body {
+      background-color: rgba(0, 0, 0, 0.779);
+    }
+    footer {
+        float: right;
+    }
+
+</style>
+
+<head>
+    <title>Ayuda a un PELUDO</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="PerritosPag.html">Perros</a></li>
+                <li><a href="GatitosPag.html">Gatitos</a></li>
+                <li><a href="#Contactos">Contactos</a></li>
             </ul>
+        </nav>
+    </header>
+    <div class="ni">
+        <h1>ONG AYUDA A UN PELUDO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dicta maiores! Labore exercitationem in
+            quidem illo facere unde quisquam minima eos delectus impedit. Eveniet aperiam eligendi placeat nisi sit
+            expedita ea, reiciendis corporis aliquam atque error, itaque dolore odit dignissimos vitae cum et, veniam
+            hic amet ullam libero? Earum ut eum suscipit perspiciatis laboriosam quidem reiciendis autem aut praesentium
+            repellat officia modi ratione in accusantium fugit esse, aspernatur architecto qui dolores? Et cum commodi
+            corporis iure quas. Repellat, enim fuga debitis voluptatibus dolores ipsa est aut porro, quidem tenetur
+            praesentium culpa eligendi aliquid, magnam voluptatem autem qui architecto nostrum aspernatur?</p>
+    </div>
+        
+
+    <div class="ni">
+        <h3>Nuestros integrantes:</h3>
+        <ul>
+            <li>Nicolás Soto - Desarrollador</li>
+            <li>Nicolás Sabando - Desarrollador</li>
+        </ul>
+    </div>
+    <div class="ni">
+        <h3>Nuestras secciones de ayuda: </h3>
+        <a href="GatitosPag.html"><img src="gatito_espada.png" width="150" height="150">Gatitos</a>
+        <br>
+        <a href="PerritosPag.html"><img src="perro_running.jpg" width="150" height="150">Perritos</a>
+
+    </div>
+
+    <footer>
+        <div id="Contactos">
+            <p>Email : <a href="AYUDAPELUDO@ONG.CL"> Ayudapeludo@ong.cl</a></p>
+            <p>Contacto : +56 (9) 6666 6666</p>
         </div>
-    </body>
+    </footer>
+</body>
+
 </html>
+
+
+
