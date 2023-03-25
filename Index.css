@@ -1,14 +1,14 @@
-body {
-    background-image: linear-gradient(to bottom right, #FF0000, #00FF00, #0000FF, #FFFF00);
-  }
+
 .ni {
     float: right;
     width: 80%;
     text-align: center;
 }
 
-ul {
-    list-style: none;
+H1 {
+    float: right;
+    width: 80%;
+    text-align: center;
 }
 
 nav {
@@ -45,4 +45,16 @@ nav ul li a {
 
 nav ul li:hover {
     background: #f59b9b;
+}
+#n1 {
+    background-color: aqua;
+}
+#n2 {
+    background-color: yellow;
+}
+#n3 {
+    background-color: orangered;
+}
+#n4 {
+    background-color: red;
 }
