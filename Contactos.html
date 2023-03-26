@@ -11,8 +11,17 @@
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        .centrado{
+        .centrado {
             text-align: center;
+        }
+
+        table {
+            border: #b2b2b2 1px solid;
+        }
+
+        td,
+        th {
+            border: black 1px solid;
         }
     </style>
 </head>
@@ -20,7 +29,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class= "container-fluid">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#">Adopta a un Peludo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -54,7 +63,7 @@
         </nav>
     </header>
     <div class="centrado">
-        <h1>Contactanos en:  </h1>
+        <h1>Contactanos en: </h1>
         <p>¡Chile Campeon!¡Chile Campeon!¡Chile Campeon de la copa America!¡en un partido dramatico!
             ¡En una tarde sufrida!¡No podia ser de otra forma! ¡Dejamos atras 100 años de lagrimas!
             ¡Dejamos atras 100 años de derrotas!¡Dejamos atras 100 años de robos arbitrales!
@@ -63,13 +72,33 @@
             ¡No lo niego!¡yo no vibro con Opera! ¡No lo niego!
             ¡No vibro con la pintura, ni con la musica clasica!
             ¡Yo vibro con ustedes!¡Con el futbol!
-            ¡Yo vibro con esta Roja que nos llevo a dos mundiales! ¡yo vibro con Chile, yo vibro con esta tarde que tantas veces soñe!
-            ¡Señoras y señores!¡Partido terminado!¡Chile!¡Si!¡Chile!¡Despues de tantos años de sufrimiento! ¡Es el Campeon de America! 
+            ¡Yo vibro con esta Roja que nos llevo a dos mundiales! ¡yo vibro con Chile, yo vibro con esta tarde que
+            tantas veces soñe!
+            ¡Señoras y señores!¡Partido terminado!¡Chile!¡Si!¡Chile!¡Despues de tantos años de sufrimiento! ¡Es el
+            Campeon de America!
             En una tarde de infartos, aca en Ñuñoa. *Se aleja del microfono y se escucha* que tarde...
         </p>
     </div>
-    
-    
+    <div>
+        <form action="" style="text-align: center;">
+            <table style="margin: 0 auto;">
+                <tr>
+                    <td><label>Nombre:</label></td>
+                    <td><input type="text" placeholder="Hans Christian Malpartida" id=""></td>
+                </tr>
+                <tr>
+                    <td><label>Correo:</label></td>
+                    <td><input type="text" placeholder="black.miguelito@mcc.cl"></td>
+                </tr>
+                <tr>
+                    <td><label>Comentario:</label></td>
+                    <td><textarea placeholder="Miguelito me toco cuando tenia 13 años"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
 </body>
 
 </html>
