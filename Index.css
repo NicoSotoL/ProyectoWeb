@@ -1,5 +1,5 @@
 body {
-    background: rgb(192, 192, 192);
+    background-color: darkgray;
 }
 .ni {
     float: right;
@@ -7,8 +7,10 @@ body {
     text-align: center;
 }
 
-ul {
-    list-style: none;
+H1 {
+    float: right;
+    width: 80%;
+    text-align: center;
 }
 
 nav {
@@ -45,4 +47,20 @@ nav ul li a {
 
 nav ul li:hover {
     background: #f59b9b;
+}
+#n1 {
+    background-color: aqua;
+    height: 25%;
+}
+#n2 {
+    background-color: yellow;
+    height: 25%;
+}
+#n3 {
+    background-color: orangered;
+    height: 25%;
+}
+#n4 {
+    background-color: red;
+    height: 25%;
 }
