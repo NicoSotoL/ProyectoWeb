@@ -27,7 +27,6 @@ nav ul {
     list-style: none;
     overflow: hidden;
     float: left;
-    transform: translateX(-30%);
 }
 
 nav ul li {
