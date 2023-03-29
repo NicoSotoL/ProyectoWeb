@@ -6,6 +6,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .imagen-con-texto{
+        height: 350px;}
+    </style>
 </head>
 
 <body>
@@ -54,12 +58,26 @@
     </div>
     <div class="ni">
         <h3>Nuestras secciones de ayuda: </h3>
-        <a href="Ginger.html"><img src="Img/Ginger.png" width="150" height="150"> Ginger</a>
-        <br>
-        <a href="Tommy.html"><img src="Img/Tommy.png" width="150" height="150"> Tommy</a>
-        <br>
-        <a href="Lucifer.html"><img src="Img/Lucifer.png" width="150" height="150"> Lucifer</a>
-        <br>
+        <div class="col-md-6">
+            <div class="d-flex flex-column justify-content-left align-items-center">
+                <img src="Img/Ginger.png" class="imagen-con-texto">
+                <h2>GINGER</h2>
+                <p>gatito con sobrepeso espera dueña uwu</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <img src="Img/Lucifer.png" class="imagen-con-texto">
+                <h2>LUCIFER</h2>
+                <p>gatito poseido por el sexo</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="d-flex flex-column justify-content-right align-items-center">
+                <img src="Img/Tommy.png" class="imagen-con-texto">
+                <h2>TOMMY</h2>
+                <p>gatito lindo, waton y blanco</p>
+            </div>
     </div>
 </body>
 
